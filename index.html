@@ -13,7 +13,7 @@
 <body>
     <div id="root">
 
-        <ul>
+        <ul v-if="arrayMail.length == 10">
             <li v-for="mail in arrayMail">
                 {{mail}}
             </li>

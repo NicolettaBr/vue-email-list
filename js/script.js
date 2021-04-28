@@ -6,8 +6,8 @@ var app = new Vue(
         
         },
 
-        method: {
-
+        methods: {
+           
         },
 
         mounted(){
